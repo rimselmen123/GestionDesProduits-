@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HELPCOMMERCE - Service Request Form</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="container mt-5">
+    <h1 class="text-center">Welcome to HELPCOMPANIES</h1>
+    <p class="lead text-center">
+      Your ultimate online marketplace where businesses with extensive product inventories can seamlessly connect, buy,
+      and sell. Our mission is to empower businesses by providing an intuitive platform designed to streamline
+      commercial transactions, reduce overhead costs, and foster growth. Whether you are a local shop owner or a
+      large-scale distributor, HELPCOMMERCE is here to support your journey to success. Join our ever-growing community
+      of enterprises and experience the future of commerce today.
+    </p>
+    <h2 class="text-center mt-5">Service Request Form</h2>
+    <form>
+      <div class="form-group">
+        <label for="companyName">Company Name:</label>
+        <input type="text" class="form-control" id="companyName" placeholder="Enter your company name">
+      </div>
+      <div class="form-group">
+        <label for="contactPerson">Contact Person:</label>
+        <input type="text" class="form-control" id="contactPerson" placeholder="Enter contact person's name">
+      </div>
+      <div class="form-group">
+        <label for="emailAddress">Email Address:</label>
+        <input type="email" class="form-control" id="emailAddress" placeholder="Enter your email address">
+      </div>
+      <div class="form-group">
+        <label for="phoneNumber">Phone Number:</label>
+        <input type="tel" class="form-control" id="phoneNumber" placeholder="Enter your phone number">
+      </div>
+      <div class="form-group">
+        <label for="productCategories">Product Categories:</label>
+        <select multiple class="form-control" id="productCategories">
+          <option>Electronics</option>
+          <option>Fashion</option>
+          <option>Home & Garden</option>
+          <option>Automotive</option>
+          <option>Health & Beauty</option>
+          <option>Sports & Outdoors</option>
+          <option>Food & Beverages</option>
+          <option>Office Supplies</option>
+          <option>Toys & Games</option>
+          <option>Books & Media</option>
+          <option>Pets & Animals</option>
+          <option>Other</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="preferredContactMethod">Preferred Contact Method:</label>
+        <select class="form-control" id="preferredContactMethod">
+          <option>Email</option>
+          <option>Phone</option>
+          <option>In-person meeting</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="additionalComments">Additional Comments or Recommendations:</label>
+        <textarea class="form-control" id="additionalComments" rows="3"
+          placeholder="Enter your comments or recommendations"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
